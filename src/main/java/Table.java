@@ -29,7 +29,7 @@ public class Table
                     + "VALUES (1, 'sky', 28);";
             stmt.executeUpdate(sql);
 
-            sql = "INSERT INTO COMPANY (ID,NAME,AGE) "
+            sql = "INSERT INTO "+name+" (ID,NAME,AGE) "
                     + "VALUES (2, 'ihar', 30);";
             stmt.executeUpdate(sql);
             stmt.close();
